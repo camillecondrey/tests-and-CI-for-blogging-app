@@ -1,9 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: Yt9ZcIbgMPiy0wFDSfUsGZjOLuIMlKfHG+MHHSZQu+yD9AOzjsvE7tR9Xi4i3HtJV33v/SfJ6ak8rojAjmFIBtOqsaVCvKovcLUKeezCkgW3/UvdedU19ZKg37AdRsbKz/KQo5RUUbT68Gm7qTn5c+zbD5jrYhA/q+2cu+y994ZPc00zehdxuMJAM7domXTIA9UjGWzaKpFkdaaXwpot8bKC8/oSkeF2BpMj5eWzS5UeP4obGhCuj+lA+ulgEG7XB/bIqpuDb5kqDwgapaOM8ZV3Qg99kiRLkp08RrMPbFZCHiErutcOlxv1RL0DR9y/ZVYF2pyh+BN1x+iOg7fp+KC88Nbx9juFbkforYSugLMDKs0F73TIexC+XBTYJaFXNRw3BW7Htx/zcTyFwil4uTQGexLd8FepmNpa+MSxk0z4EG/gQqCTC6Qd+yJ6p8xd5obVwx759sVpeYBCdcCWzyrEDob/usR7rMNBNwsp96jVsUCvTk2hwDD4zIzDft1FIdBPaDxXBWbme2oacI+a6SAP5pHRkRMZARgOjLFRa0tzw7b1gKa7r+LAjxipB2LA6pWaARWqspuERpsKta2rjFt/3JDNWSRx6VwxnZ2Va4ueX/k3de33HXC9nI46xHPsWZ5nv4h2XPUxvz4fkNiRVo7XHx4mph2iAwqD+CdalHw=
-  app: fast-garden-70961
-  on:
-    repo: camillecondrey/tests-and-CI-for-blogging-app
