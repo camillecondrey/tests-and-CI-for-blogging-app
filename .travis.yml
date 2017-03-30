@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: TQEYGOrDJCH5WKewadFL2Z4YOj8eCmboBnt/7ExJU8hiz47xNQacKpPZYxgVha/a+ZC09+/z8ylw+gJOHAMLcns8A57Gi8IQ0iS5mBE4k+QXyOJ3XnckPEEC+w70UWONF7bwj+0N6CFob0/tzFvEnBIj4MTVVON5NtNKtxkNs53e02ryW0AxzR+ynZ4NXwV1cg4m10qEM9/KCHgQeaGllmZLNE1XAw7gWxYT7bCwSaysXSHo4CEVxmRclhmJYdQ9Ou0sBJTw5e08bEeu7vbfQKuQwvKTkb0Eh5Zdg8B4k0VodEaNmJTk1r2Dcds+GKYOoSLGKdtKAOmH5wLdPwEHRJrjXPDbK1u3vwHsSHd3dbkxtuDBP8BaaMrTq/GoUSGNxGrxbGWAw7L4W+ARZZWETranp+PyYuDnbIE8bxu4mETZMv8nW3XU+NkY6dUsCSy+XQJalRhaz/sTcrObpztO+LMojFH6qbtfYiLtd7iWi3jOxGAfUPVMPDPSJ6UeR0sec1bUqHTvL16JvyVOMpwRzF0AVfOJoHg4Ij4iBbte+/SL2UAO3inkG4gEeY9U8D+34RClTmrZhvKtum6xpc/bcZOqkR2qpeMI0NdF5wgCBDibAtM6Jn5RFHig4knvVdPeeULRJmjp4yJs5Ior+7Cms03ypU/ltDbvhsSOwO3VVw8=
+  app: secret-ridge-45319
+  on:
+    repo: camillecondrey/tests-and-CI-for-blogging-app
