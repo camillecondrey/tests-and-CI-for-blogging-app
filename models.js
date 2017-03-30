@@ -22,7 +22,7 @@ const BlogPosts = {
       title: title,
       content: content,
       author: author,
-      publishDate: publishDate || Date.now()
+      // publishDate: publishDate || Date.now()
     };
     this.posts.push(post);
     return post;
