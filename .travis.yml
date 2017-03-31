@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ONqMcgxXX+ag0qDsA1SW5j9pCvijnIO9v95r7wMRPU3K1RBPV6lJwdhAcpB4/sqGfGSvNDl2r62zRHiV8mPmXZy75Jnk+KXamKBmfTeEXraFyvtmtNT8wIECKRRf6bNK/KYDRp0PcZVilkDym0nITbHSAVnLbuAQ1gJFbAiyBF8VJFGzr43a+YuSjIm4fttLQoZOl03mwlKekkzsfdU3BDTNrJoClWI6qJKL3T18c91UjEHwPf7ThtC9vUzYXFatllLvVERUOKKq12Sk/evSnsdoF/p7DfNEMEKR+avV7p8PjCb+Db9Ts4d1sRJSjiyU+ITApUklaIQqEh3TGPFJejjZH7paCwhGtpPrvetuHIRdYejKOqLMNFwnlgdZTxdmDCiddz8IFjmntRQziL88NjYHtqvpftxDROeQ+VUs8mbIHGv+LgnMyNetlS1dq/KUPAY2uy0rQpoSgIVRMJ6zE+EleNvjBbndSKziqVxkPMy3MWW+EUw9YAKRr3sJRNBcTsUGeErbIR2oOMTBKb6+1mX5rzcjOxJqN5wvHe0Ya9ffwbIRUalCSrgfQPfQFVhbAZTGkru4afgjEnUecHnbIdANt7QhUNuDU4OQRq23qzwSYbKa+GfMupt+ZAQ4thM/3DogcFEzq0NkEbxZKZGWpd08KSSybDRqXeTYFdWgj98=
+  app: desolate-sierra-14633
+  on:
+    repo: camillecondrey/tests-and-CI-for-blogging-app
